@@ -4,5 +4,9 @@ void setup() {
 }
 
 void draw() {
-    rect(width/2, height/2, 40, 40);
+    for(int i=0; i<5; i++) {
+      
+    fill( 148, 0, 211);
+    rect(width/2 + i * 20 , height/2 - i * 20 , 40, 40);
+    }
 }
